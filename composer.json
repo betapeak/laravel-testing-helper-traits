@@ -1,0 +1,30 @@
+{
+  "name": "betapeak/laravel-testing-helper-traits",
+  "description": "Adds traits similar to the DatabaseMigtaions trait, but with added seeding.",
+  "keywords": [
+    "laravel",
+    "testing",
+    "traits"
+  ],
+  "type": "package",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/betapeak/laravel-testing-helper-traits/issues",
+    "source": "https://github.com/betapeak/laravel-testing-helper-traits"
+  },
+  "authors": [
+    {
+      "name": "Yasen Slavov",
+      "email": "yasen@betapeak.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "laravel/framework": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "BetaPeak\\Testing\\Traits\\": "src/"
+    }
+  }
+}
