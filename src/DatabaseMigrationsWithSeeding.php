@@ -10,15 +10,17 @@ trait DatabaseMigrationsWithSeeding
      * If set to true, the migration will be of type 'refresh', not 'fresh'
      *
      * @var boolean
+     *
+     * protected $useRefreshMigrations;
      */
-    protected $useRefreshMigrations;
 
     /**
      * A seeder class name
      *
      * @var string
+     *
+     * protected $seederClass;
      */
-    protected $seederClass;
 
     /**
      * Define hooks to migrate the database before and after each test.
